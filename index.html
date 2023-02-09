@@ -6,24 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>Odd Ducks Page</title>
+    <title>Odd Duck Products</title>
   </head>
   <body>
     <header>
+      <!-- img goes here -->
       <h1>Odd Duck Products</h1>
     </header>
-    <section id="results"></section>
 
-    <section id="main-container">
+    <div class="results">
+      <h3></h3>
+      <ul id="results-list"></ul>
+    </div>
+
+    <main>
       <div id="img-container">
         <img id="img1" />
         <img id="img2" />
         <img id="img3" />
       </div>
-      <div id="lorem-container"></div>
-    </section>
+      <div class="chart-container">
+        <canvas id="chart"></canvas>
+      </div>
+    </main>
 
-    <footer></footer>
+    <footer>
+      <h2>Footer</h2>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <script src="app.js"></script>
   </body>
