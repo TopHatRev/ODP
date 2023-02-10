@@ -54,3 +54,22 @@ main {
 img {
   width: 30%;
 }
+
+/* Dark Mode */
+
+.dark {
+  background-color: #263545;
+}
+
+.dark .results {
+  background-color: #7d7d7d;
+}
+
+.dark #img-container {
+  background-color: #727471;
+  border: 3px solid white;
+}
+
+.dark main {
+  background-color: #727471;
+}
